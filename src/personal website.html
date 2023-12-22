@@ -1,27 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>my website</title>
+    <title>My Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<header>
-    <img style="text-align:left" width="200" height="100" src="images/mylogo.jpg">
-    <h1 style="text-align:center" >Welcome To My Website</h1>
-<h2 style="text-align:center;">I am feysel and i created this website to share my academic journey, extracurricular activities, hobbies and so on. I hope it gives you a glimpse into my life and aspirations
-    <hr></h2></header>
-<body>
-<img width="600" height="420" src="images/logo.jpg">
-<h3>Hello. I'm feysel hussien. Student in Addis ababa university. 3rd year in software engineering feild. This is my personal website. The page provides a brief overview of who I am and what I'm all about. It features a welcoming message, a glimpse into my hobbies, and a snapshot of my achievements and many more.</h3>
-</body>
-<footer>
-    <hr>
-    <div style="text-align:center" class="navbar">
 
-        <a href="personal%20website.html" class="active">Home Page</a>
-        <a href="hobbies.html">Hobbies</a>
-        <a href="achievments.html">Achievment</a>
-        <a href="place.html">Place Visited</a>
-        <a href="contact.html">Contact</a>
+<body class="font-sans bg-gray-300">
+
+    <header class="bg-cyan-800 text-black text-center py-8">
+        <img class="mx-auto w-24 h-24" src="images/mylogo.jpg" alt="Logo">
+        <h1 class="text-2xl font-bold mt-4">Welcome To My Website</h1>
+        <h2 class="text-lg text-gray-300 mt-2">I am Feysel, and I created this website to share my academic journey, extracurricular activities, hobbies, and more. I hope it gives you a glimpse into my life and aspirations.</h2>
+        <hr class="my-4 border-t-2 border-gray-300">
+    </header>
+
+    <div class="container mx-auto text-center my-8">
+        <img class="mx-auto w-48 h-48 rounded-full mb-4" src="images/logo.jpg" alt="My Picture">
+        <h3 class="text-lg">Hello. I'm Feysel Hussien, a student at Addis Ababa University. I'm in my 3rd year in the software engineering field. This is my personal website, providing a brief overview of who I am and what I'm all about. It features a welcoming message, a glimpse into my hobbies, and a snapshot of my achievements and more.</h3>
     </div>
-</footer>
+
+    <footer class="bg-cyan-800 text-black mt-8 py-4">
+        <hr class="my-4 border-t-2 border-gray-300">
+        <nav class="flex items-center justify-around">
+            <a href="personal tailwind.html" class="hover:bg-gray-300 transition duration-300">Home Page</a>
+            <a href="hobbies tailwind.html" class="hover:bg-gray-300 transition duration-300">Hobbies</a>
+            <a href="achievment tailwind.html" class="hover:bg-gray-300 transition duration-300">Achievement</a>
+            <a href="place tailwind.html" class="hover:bg-gray-300 transition duration-300">Place Visited</a>
+            <a href="contact tailwind.html" class="hover:bg-gray-300 transition duration-300">Contact</a>
+        </nav>
+        <p class="text-sm my-2 text-center text-white">&copy; 2023</p>
+        <p class="text-sm text-center text-white">Any feedback?</p>
+    </footer>
+    
+
+</body>
+
 </html>
